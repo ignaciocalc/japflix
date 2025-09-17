@@ -29,7 +29,40 @@
       <ul id="lista">
       </ul>
     </div>
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div id="descripcion">
+        </div>
+        <hr>
+        <div id="categoriasYmas">
+          <div id="categorias">
+          </div>
+          
+          <div id="masInfo">
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </button>
+                <ul class="dropdown-menu" id="desplegable">
+                  <li>Year: <span id="year"></span></li>
+                  <li>Runtime: <span id="runtime"></span></li>
+                  <li>Budget: <samp id="budget"></samp></li>
+                  <li>Revenue: <samp id="revenue"></samp></li>
+                </ul>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
   </main>
+
+  
 
   <footer class="text-muted py-3">
     <div class="container">

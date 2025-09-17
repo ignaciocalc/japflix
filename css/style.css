@@ -68,3 +68,32 @@ div.album {
     margin: 0;
     font-weight: 310;
 }
+
+/*canvas top */
+#categoriasYmas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offcanvas-body {
+    overflow: visible;
+}
+
+#desplegable {
+    padding: 10px;
+}
+
+#desplegable li {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#desplegable {
+    transform: translate3d(-148px, 36px, 0px);
+    min-width: 230px;
+}
+
+
