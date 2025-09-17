@@ -27,4 +27,44 @@ main {
     height: fit-content;
 }
 
+#inputBuscar {
+    min-width:  212px;
+}
+
 /* Estilos de lista */
+div.album {
+    margin: 0 10vw;
+}
+
+#lista {
+    padding: 0px
+}
+
+#lista li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px #8d9198;
+    min-width: 190px;
+}
+
+.contEstrellas {
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.contEstrellas span {
+    margin-right: 5px;
+}
+
+#lista h1 {
+    font-size: 1.4rem;
+    color: white;
+}
+
+#lista p {
+    font-size: 1.1rem;
+    color: white;
+    margin: 0;
+    font-weight: 310;
+}
